@@ -39,3 +39,5 @@ cat("\n")
 
 #mean similarity
 PCT <- (PCT + t(PCT)) / 2
+
+write.table(PCT, file = "PCT.txt", sep="\t", row.names = T, col.names = NA)
