@@ -1,5 +1,5 @@
-#Characterization and comparison of gene-centered human interactomes
-#Supplementary Material
+# Characterization and comparison of gene-centered human interactomes
+# Supplementary Material
 
 Ettore Mosca1*, Matteo Bersanelli2,3, Tommaso Matteuzzi2, Noemi Di Nanni1, Gastone Castellani2, Luciano Milanesi1 & Daniel Remondini2*
 
@@ -7,14 +7,14 @@ Ettore Mosca1*, Matteo Bersanelli2,3, Tommaso Matteuzzi2, Noemi Di Nanni1, Gasto
 2 Department of Physics and Astronomy, University of Bologna, & INFN, Bologna, 40127, Italy
 3 INFN, Bologna, 40127, Italy
 
-##Supplementary Code
+## Supplementary Code
 ccf: connected component fractions
 dgp: diseaase gene prediction
 nd: network diffusion
 pct: pathway cross-talk
 
 
-##Supplementary Tables
+## Supplementary Tables
 Table S3. Disease associated genes.
 Table S4. CCFs of protein complexes.
 Table S5. CCFs of molecular pathways.
