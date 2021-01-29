@@ -3,8 +3,6 @@
 
 aggregate_correlation <- function(C_t_list){
 
-	R <- numeric(ncol(C_t_list[[1]]))
-	
 	for(i in 1:length(C_t_list)){
 		diag(C_t_list[[i]]) <- 0
 	}
