@@ -12,6 +12,8 @@ Ettore Mosca1*, Matteo Bersanelli2,3, Tommaso Matteuzzi2, Noemi Di Nanni1, Gasto
 ## Supplementary Code
 ccf: connected component fractions
 
+corr: correlation analysis
+
 dgp: diseaase gene prediction
 
 nd: network diffusion
