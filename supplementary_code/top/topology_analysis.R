@@ -2,6 +2,9 @@
 ### Interactome Reproducibility: Topological Analysis #############################
 ###################################################################################
 
+### INPUT ###
+# G named list of interactomes as igraph objects
+
 library(igraph)
 library(rARPACK)
 library(Hmisc)
@@ -11,26 +14,11 @@ library(LaplacesDemon)
 library(org.Hs.eg.db)
 
 
-sym2eg <- as.data.frame(org.Hs.egSYMBOL2EG)
+interactomes <- names(G)
+Gnodes <- G
+N <- G
+E <- G
 
-interactomes <- c('bioplex','cofrac15','huri','qubic','ghiassian','hint','hippie','irefindex','ncbi',
-                'fp60','multinet','string400notm','string400','string700notm','string700',
-                'biana','cpathdb','inbiowebmap','intact')
-
-col_1 <- c('red','red','red','red','blue','blue','blue',
-         'blue','blue','black','black','black','black','black','black','blue','black','black','blue')
-
-labels <- c('BX','CF','HURI','QU','DMND','HN','HP','IR','NCBI',
-            'FP60','MN','S04','S04T','S07','S07T','BN','CP','IBMP','INTC')     
-
-
-G <- list()
-Gnodes <- list()
-N <- list()
-E <- list()
-
-
-# import interactomes
 for (interactome in interactomes){
   filename <- paste("path_to_interactomes_edgelists",interactome,".txt",sep="")
   edgelist <- read.table(filename,sep = "\t")
