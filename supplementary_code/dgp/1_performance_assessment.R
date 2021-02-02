@@ -124,7 +124,7 @@ save(X0_list_int, file="X0_int.RData")
 load("X0_int.RData")
 
 cores <- 4
-Xs_int <- vector("list",19)
+Xs_int <- vector("list", length(G))
 
 for(i in 1:length(G)){
 	adj <- as.matrix(as_adjacency_matrix(G[[i]]))
