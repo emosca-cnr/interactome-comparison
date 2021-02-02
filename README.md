@@ -13,16 +13,23 @@ Ettore Mosca(1*), Matteo Bersanelli(2,3), Tommaso Matteuzzi(2), Noemi Di Nanni(1
 
 ## Supplementary Code
 ccf: connected component fractions
+
 corr: correlation analysis
+
 dgp: disease gene prediction
+
 nd: network diffusion
+
 pct: pathway cross-talk
 
 ## Supplementary Tables
 Table S3. Disease associated genes.
-Table S5. Correlations.
-Table S6. CCFs of protein complexes.
-Table S7. CCFs of molecular pathways.
-Table S8. Pathway cross-talks.
 
+Table S5. Correlations.
+
+Table S6. CCFs of protein complexes.
+
+Table S7. CCFs of molecular pathways.
+
+Table S8. Pathway cross-talks.
 
