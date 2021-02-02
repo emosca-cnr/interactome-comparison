@@ -3,7 +3,7 @@
 ########################################
 
 ##### INPUT
-#disease_gene_list <- 
+#disease_gene_list: named list of disease associated genes 
 
 library(igraph)
 

@@ -1,5 +1,4 @@
-load("input_per_AUC_calc.RData")
-source("roc_funct.R")
+load("input_per_AUC_calc.RData") #obtained by means of 1_performance_assessment.R
 
 #create list results - 1 list 1 interactome
 list_int <- vector("list", length = length(int_results))

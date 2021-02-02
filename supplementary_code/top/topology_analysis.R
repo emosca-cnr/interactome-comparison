@@ -8,8 +8,6 @@
 library(igraph)
 library(rARPACK)
 library(Hmisc)
-library(gplots)
-library(ggplot2) 
 library(LaplacesDemon)
 library(org.Hs.eg.db)
 

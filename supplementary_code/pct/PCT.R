@@ -1,7 +1,9 @@
 #pathway CROSS-talk
 #require the network diffusion function ND
-#gsl names list of gene sets
-#W normalized adjacency matrix
+
+### INPUT
+# gsl: named list of gene sets
+# W: normalized adjacency matrix
 
 #set up input matrix genes-by-pathways
 X0 <- matrix(0, nrow=nrow(W), ncol = length(gsl), dimnames = list(rownames(W), names(gsl)))

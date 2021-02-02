@@ -4,8 +4,6 @@
 # C_mat_list: list of correlation matrices
 
 # load required libraries
-library(plotrix)
-library(ggplot2)
 library(igraph)
 
 
