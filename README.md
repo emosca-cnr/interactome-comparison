@@ -11,6 +11,8 @@ Ettore Mosca(1*), Matteo Bersanelli(2,3), Tommaso Matteuzzi(2), Noemi Di Nanni(1
 
 (*) Corresponding authors.
 
+https://doi.org/10.1093/bib/bbab153
+
 ## Supplementary Code
 ccf: connected component fractions
 
